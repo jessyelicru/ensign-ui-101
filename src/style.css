@@ -1,44 +1,69 @@
-:root {
-  /* font weights */
-  --font-thin: 300;
-  --font-regular: 400;
-  --font-medium: 500;
-  --font-bold: 700;
-
-  /* font sizes */
-  --text-sm: 14px;
-  --text-base: 16px;
-  --text-xl: 18px;
-
-  /* line heights */
-  --line-height-sm: 20px;
-  --line-height-base: 24px;
-  --line-height-xl: 28px;
-
-  /* base colors */
-  --white: #ffffff;
-  --black: #000000;
-
-  /* slate colors */
-  --slate-50: #F8FAFC;
-  --slate-200: #E2E8F0;
-  --slate-300: #CBD5E1;
-  --slate-400: #94A3B8;
-  --slate-500: #64748B;
-  --slate-700: #334155;
-  --slate-900: #0F172A;
+h2 {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  font-weight: 400;
+  height: 17px;
+  top: 341px;
+  left: 402px;
 }
 
-body {
-  /* Do not change it! */
-  background: #ffffff;
-  color: var(--slate-900);
-  padding: 16px 32px;
-  font-family: "Inter", serif;
-  font-optical-sizing: auto;
+.LogoCloudSection {
+  display: grid;
+  width: 1440px;
+  height: 430px;
+  top: 240px;
+  background-color: #f2dfdf;
+  text-align: center;
 }
 
-main {
-  /* Do not change it! */
-  min-height: 100vh;
+.LogoRow {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 83px;
+  justify-items: center;
+  align-items: center;
+}
+
+#American {
+  width: 150px;
+  height: 50px;
+  top: 454px;
+  left: 99px;
+}
+#LDS {
+  width: 76px;
+  height: 150px;
+  top: 404px;
+  left: 335px;
+}
+
+#MSF {
+  width: 150px;
+  height: 44px;
+  top: 454px;
+  left: 491px;
+}
+
+#CRS {
+  width: 150px;
+  height: 98px;
+  top: 430px;
+  left: 724px;
+}
+
+#WHO {
+  width: 150px;
+  height: 46px;
+  top: 456px;
+  left: 957px;
+}
+
+#UNICEF {
+  width: 150px;
+  height: 36px;
+  top: 461px;
+  left: 1190px;
 }
